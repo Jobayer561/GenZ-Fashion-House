@@ -1,0 +1,92 @@
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+.bebas-neue {
+  font-family: "Bebas Neue", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.fixed {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.primary-btn {
+  padding: 18px 40px;
+  border-radius: 8px;
+  background: #94ae32;
+  border: none;
+  color: white;
+  width: 180px;
+  height: 60px;
+  font-size: 16px;
+}
+.primary-btn:hover {
+  transform: scale(1.05);
+}
+header {
+  background-color: #fffbf0;
+  padding: 50px 0;
+}
+.color {
+  color: #a4bc46;
+}
+.color1 {
+  color: #363958;
+}
+.first {
+  display: flex;
+  align-items: center;
+}
+.first img {
+  width: 56px;
+  height: 40px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.anchor {
+  gap: 50px;
+  display: flex;
+  align-items: center;
+}
+.anchor a{
+    text-decoration: none;
+    color: #3C3C3C;
+    font-size: 16px;
+}
+.genzs {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.left-div h1 {
+  color: #fabe4c;
+  font-size: 80px;
+  font-weight: 400;
+}
+.left-div h1 span {
+  color: #363958;
+  font-size: 80px;
+  font-weight: 400;
+}
+.left-div p {
+  color: #3e3e3e;
+  font-size: 16px;
+}
+.cart {
+  color: white;
+}
+.right-div img{
+    margin-right: 30px;
+    width: 397px;
+height: 394px;
+}
+
