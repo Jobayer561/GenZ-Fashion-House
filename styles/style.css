@@ -16,12 +16,12 @@
   margin: 0 auto;
 }
 .primary-btn {
-  padding: 18px 40px;
+  padding: 18px 30px;
   border-radius: 8px;
   background: #94ae32;
   border: none;
   color: white;
-  width: 180px;
+  width: 160px;
   height: 60px;
   font-size: 16px;
 }
@@ -31,6 +31,7 @@
 header {
   background-color: #fffbf0;
   padding: 50px 0;
+  margin-bottom: 50px;
 }
 .color {
   color: #a4bc46;
@@ -55,10 +56,10 @@ header {
   display: flex;
   align-items: center;
 }
-.anchor a{
-    text-decoration: none;
-    color: #3C3C3C;
-    font-size: 16px;
+.anchor a {
+  text-decoration: none;
+  color: #3c3c3c;
+  font-size: 16px;
 }
 .genzs {
   margin-top: 50px;
@@ -85,9 +86,102 @@ header {
 .cart {
   color: white;
 }
-.right-div img{
-    margin-right: 30px;
-    width: 397px;
-height: 394px;
+.right-div img {
+  margin-right: 30px;
+  width: 397px;
+  height: 394px;
+}
+main {
+  margin-top: 60px;
+}
+.heading {
+  color: #363958;
+  font-size: 48px;
+  font-weight: 400;
+}
+.clothes {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 80px;
+}
+.clothes-card {
+  width: 335px;
+  border-radius: 20px;
+  background: #ffffff;
+  border: 2px solid whitesmoke;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
+.clothes-image {
+  width: 330px;
+  height: auto;
+  background: #d3d3d380;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
+.clothes-image img {
+  padding: 12px 0;
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.clothes-details {
+  margin-top: 20px;
+}
+
+.clothes-details h1 {
+  color: #363958;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.clothes-details p {
+  color: #3e3e3e;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  color: #fabe4c;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 576px) {
+  .heading {
+  font-size: 36px;
+  text-align: center;
+  }
+  .clothes {
+    flex-direction: column;
+    gap: 15px;
+  }
+.clothes-card {
+  width: 100%;         
+  max-width: 335px;    
+  margin: 0 auto;      
+}
+
+.clothes-image {
+  width: 100%;         
+  max-width: 330px;
+}
+
+.clothes-image img {
+  width: 100%;
+  height: auto;
+}
+}
