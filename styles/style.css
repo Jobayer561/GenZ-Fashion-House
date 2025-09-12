@@ -224,8 +224,21 @@ footer {
 width: 100%;
 height: auto;
 }
-  .anchor {
-    display: none;
+.first {
+justify-content: center;
+}
+    .anchor {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+
+  .anchor a {
+    font-size: 18px;
+    display: block;
   }
   .genzs {
     margin: 0 20px;
