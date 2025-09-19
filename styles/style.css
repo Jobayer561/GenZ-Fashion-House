@@ -121,7 +121,6 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 
 .clothes-image img {
@@ -168,11 +167,8 @@ footer {
   justify-content: space-between;               
 }
 
-.left-group {
-  display: flex;
-  flex-direction: column;  
-  gap: 15px;    
-            
+.left-group {  
+  margin-bottom: 15px;          
 }
 .left-footer {
   display: flex;
